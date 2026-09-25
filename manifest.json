@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Website Reputation Checker",
+  "version": "1.1",
+  "description": "Checks WHOIS, domain age, and SSL status for the current website.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://whoisxmlapi.com/*",
+    "https://api.ssllabs.com/*"
+  ]
+}

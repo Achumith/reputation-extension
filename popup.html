@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Reputation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+            </div>
+            <h2>Website Reputation</h2>
+        </header>
+        <main>
+            <div id="result">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Detecting domain...</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="note">Data from WhoisXML & SSL Labs</div>
+            <button id="refresh-btn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.59-9.21l5.67-5.67"/>
+                </svg>
+                Refresh
+            </button>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
